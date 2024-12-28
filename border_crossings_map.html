@@ -1,0 +1,2291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2942e974ac6a7d7fedee2db5d1a3bdb9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2942e974ac6a7d7fedee2db5d1a3bdb9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2942e974ac6a7d7fedee2db5d1a3bdb9 = L.map(
+                "map_2942e974ac6a7d7fedee2db5d1a3bdb9",
+                {
+                    center: [40.0, -100.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ed5dae1cdc03b910338c3a575fda35ba = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+            var circle_marker_b1c1c7abb50a6b1218af3c0a16912378 = L.circleMarker(
+                [62.615, -141.001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.7051001240247325, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_5a743ebd82d89e75f86ce116b3ac5ff9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c924a6bd26b65284ce6f1e9ed3ae565 = $(`<div id="html_8c924a6bd26b65284ce6f1e9ed3ae565" style="width: 100.0%; height: 100.0%;">Alcan: 4,926,800 crossings</div>`)[0];
+            popup_5a743ebd82d89e75f86ce116b3ac5ff9.setContent(html_8c924a6bd26b65284ce6f1e9ed3ae565);
+        
+
+        circle_marker_b1c1c7abb50a6b1218af3c0a16912378.bindPopup(popup_5a743ebd82d89e75f86ce116b3ac5ff9)
+        ;
+
+        
+    
+    
+            var circle_marker_cfe99603eddcb5e977938a8a6b97e0d6 = L.circleMarker(
+                [44.347, -75.984],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.038980831180124, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_d659bcb09cb373ee381b572ee2670f34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb962f593c797dbf322425addc4b048d = $(`<div id="html_bb962f593c797dbf322425addc4b048d" style="width: 100.0%; height: 100.0%;">Alexandria Bay: 70,983,759 crossings</div>`)[0];
+            popup_d659bcb09cb373ee381b572ee2670f34.setContent(html_bb962f593c797dbf322425addc4b048d);
+        
+
+        circle_marker_cfe99603eddcb5e977938a8a6b97e0d6.bindPopup(popup_d659bcb09cb373ee381b572ee2670f34)
+        ;
+
+        
+    
+    
+            var circle_marker_0b63bb5759e96fc7c2bad5deeb5a44b6 = L.circleMarker(
+                [42.618, -82.531],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.454794193152439, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_5e5e09ebc0bc3dac003966e9033db64b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e534a5999e4b0222c943d5c95dcbaf6e = $(`<div id="html_e534a5999e4b0222c943d5c95dcbaf6e" style="width: 100.0%; height: 100.0%;">Algonac: 404,169 crossings</div>`)[0];
+            popup_5e5e09ebc0bc3dac003966e9033db64b.setContent(html_e534a5999e4b0222c943d5c95dcbaf6e);
+        
+
+        circle_marker_0b63bb5759e96fc7c2bad5deeb5a44b6.bindPopup(popup_5e5e09ebc0bc3dac003966e9033db64b)
+        ;
+
+        
+    
+    
+            var circle_marker_d4e2c98fb011127b93edec9431e23229 = L.circleMarker(
+                [48.999, -103.487],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.1536847076731584, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_e28fc7cadb361bf0ab6168fdd3b268af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1e5b5353d219d3b086b60a416ae96c4 = $(`<div id="html_c1e5b5353d219d3b086b60a416ae96c4" style="width: 100.0%; height: 100.0%;">Ambrose: 221,321 crossings</div>`)[0];
+            popup_e28fc7cadb361bf0ab6168fdd3b268af.setContent(html_c1e5b5353d219d3b086b60a416ae96c4);
+        
+
+        circle_marker_d4e2c98fb011127b93edec9431e23229.bindPopup(popup_e28fc7cadb361bf0ab6168fdd3b268af)
+        ;
+
+        
+    
+    
+            var circle_marker_52ba1ee20ff5794556a7bb0a52373e6c = L.circleMarker(
+                [48.496, -122.6],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.170370663809587, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_d2ab4a648647a64f0e333c263388b1be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82c13e5db1309e9188812995326f70fc = $(`<div id="html_82c13e5db1309e9188812995326f70fc" style="width: 100.0%; height: 100.0%;">Anacortes: 1,690,849 crossings</div>`)[0];
+            popup_d2ab4a648647a64f0e333c263388b1be.setContent(html_82c13e5db1309e9188812995326f70fc);
+        
+
+        circle_marker_52ba1ee20ff5794556a7bb0a52373e6c.bindPopup(popup_d2ab4a648647a64f0e333c263388b1be)
+        ;
+
+        
+    
+    
+            var circle_marker_19a57d4ca4b30b5b99c2298d925571f3 = L.circleMarker(
+                [32.718, -114.728],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.120529070850846, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_7a5b3c0646675f9c1d87ef7c9982c65b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d85c02e390c22b3bbb58be9e09b5e02f = $(`<div id="html_d85c02e390c22b3bbb58be9e09b5e02f" style="width: 100.0%; height: 100.0%;">Andrade: 83,558,550 crossings</div>`)[0];
+            popup_7a5b3c0646675f9c1d87ef7c9982c65b.setContent(html_d85c02e390c22b3bbb58be9e09b5e02f);
+        
+
+        circle_marker_19a57d4ca4b30b5b99c2298d925571f3.bindPopup(popup_7a5b3c0646675f9c1d87ef7c9982c65b)
+        ;
+
+        
+    
+    
+            var circle_marker_469aa377b992c7b74da8e83b311cd80c = L.circleMarker(
+                [48.999, -101.296],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.853643529494589, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_73e5583bfe0b9250a00c3cb67404a3fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef81e55caf4333c886a8933a85ebb883 = $(`<div id="html_ef81e55caf4333c886a8933a85ebb883" style="width: 100.0%; height: 100.0%;">Antler: 897,427 crossings</div>`)[0];
+            popup_73e5583bfe0b9250a00c3cb67404a3fa.setContent(html_ef81e55caf4333c886a8933a85ebb883);
+        
+
+        circle_marker_469aa377b992c7b74da8e83b311cd80c.bindPopup(popup_73e5583bfe0b9250a00c3cb67404a3fa)
+        ;
+
+        
+    
+    
+            var circle_marker_93caeecb6c0323cefc81b8bd263506e3 = L.circleMarker(
+                [44.4, -68.225],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.353492143891176, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_d920a55f9daee601caf104f6c13dfb80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e543f6d7e582556f3b1fb9513b3454f4 = $(`<div id="html_e543f6d7e582556f3b1fb9513b3454f4" style="width: 100.0%; height: 100.0%;">Bar Harbor: 330,045 crossings</div>`)[0];
+            popup_d920a55f9daee601caf104f6c13dfb80.setContent(html_e543f6d7e582556f3b1fb9513b3454f4);
+        
+
+        circle_marker_93caeecb6c0323cefc81b8bd263506e3.bindPopup(popup_d920a55f9daee601caf104f6c13dfb80)
+        ;
+
+        
+    
+    
+            var circle_marker_a82173df5f3ced2486817bebf9a2d950 = L.circleMarker(
+                [48.719, -94.59],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.261048644357977, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_de007ba3e7d55c421c6aabbf93933688 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4bc825bac35c2e3e0a87837b9c6ec2a3 = $(`<div id="html_4bc825bac35c2e3e0a87837b9c6ec2a3" style="width: 100.0%; height: 100.0%;">Baudette: 14,978,064 crossings</div>`)[0];
+            popup_de007ba3e7d55c421c6aabbf93933688.setContent(html_4bc825bac35c2e3e0a87837b9c6ec2a3);
+        
+
+        circle_marker_a82173df5f3ced2486817bebf9a2d950.bindPopup(popup_de007ba3e7d55c421c6aabbf93933688)
+        ;
+
+        
+    
+    
+            var circle_marker_9f3abd2d44b712a5627acf377b861944 = L.circleMarker(
+                [45.013, -71.505],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.860005668823771, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_a3a204acbad5a7a09a967be4f3d173c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d16d398adf7d850fbd0db1b263223f1 = $(`<div id="html_6d16d398adf7d850fbd0db1b263223f1" style="width: 100.0%; height: 100.0%;">Beecher Falls: 6,716,054 crossings</div>`)[0];
+            popup_a3a204acbad5a7a09a967be4f3d173c4.setContent(html_6d16d398adf7d850fbd0db1b263223f1);
+        
+
+        circle_marker_9f3abd2d44b712a5627acf377b861944.bindPopup(popup_a3a204acbad5a7a09a967be4f3d173c4)
+        ;
+
+        
+    
+    
+            var circle_marker_4109aeb3a87c7b91903106f7ff875710 = L.circleMarker(
+                [48.994, -122.749],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.800959353089512, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_f66a6986b933e1d183145e6bb04c5fe7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bd3b5ffc53b6d4e3dc6b0026e3bfbde = $(`<div id="html_7bd3b5ffc53b6d4e3dc6b0026e3bfbde" style="width: 100.0%; height: 100.0%;">Blaine: 325,840,549 crossings</div>`)[0];
+            popup_f66a6986b933e1d183145e6bb04c5fe7.setContent(html_7bd3b5ffc53b6d4e3dc6b0026e3bfbde);
+        
+
+        circle_marker_4109aeb3a87c7b91903106f7ff875710.bindPopup(popup_f66a6986b933e1d183145e6bb04c5fe7)
+        ;
+
+        
+    
+    
+            var circle_marker_0c92e817e37e9ec9993b9f8f5a71acb4 = L.circleMarker(
+                [29.19, -102.947],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.792381144294455, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_563285f66453ea860e556283b0c64619 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2126ef5bfb95fb2b4b29b1c7f88625db = $(`<div id="html_2126ef5bfb95fb2b4b29b1c7f88625db" style="width: 100.0%; height: 100.0%;">Boquillas: 107,448 crossings</div>`)[0];
+            popup_563285f66453ea860e556283b0c64619.setContent(html_2126ef5bfb95fb2b4b29b1c7f88625db);
+        
+
+        circle_marker_0c92e817e37e9ec9993b9f8f5a71acb4.bindPopup(popup_563285f66453ea860e556283b0c64619)
+        ;
+
+        
+    
+    
+            var circle_marker_ea70a15280d873ebbdb40f33e17c8527 = L.circleMarker(
+                [49.001, -117.628],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.569474757022507, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_c4b69c56553c9355e30835046bb0bcde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31e8284f8ac3172b643c66b5acc922e3 = $(`<div id="html_31e8284f8ac3172b643c66b5acc922e3" style="width: 100.0%; height: 100.0%;">Boundary: 3,756,317 crossings</div>`)[0];
+            popup_c4b69c56553c9355e30835046bb0bcde.setContent(html_31e8284f8ac3172b643c66b5acc922e3);
+        
+
+        circle_marker_ea70a15280d873ebbdb40f33e17c8527.bindPopup(popup_c4b69c56553c9355e30835046bb0bcde)
+        ;
+
+        
+    
+    
+            var circle_marker_f39e1f7985fa026f6cdaefd8be8688a9 = L.circleMarker(
+                [46.45, -67.785],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.80534558420469, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_33b4d00ca99585963c252b3089691f51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7deb1d74226843debe342a2eaea9c62 = $(`<div id="html_e7deb1d74226843debe342a2eaea9c62" style="width: 100.0%; height: 100.0%;">Bridgewater: 6,020,562 crossings</div>`)[0];
+            popup_33b4d00ca99585963c252b3089691f51.setContent(html_e7deb1d74226843debe342a2eaea9c62);
+        
+
+        circle_marker_f39e1f7985fa026f6cdaefd8be8688a9.bindPopup(popup_33b4d00ca99585963c252b3089691f51)
+        ;
+
+        
+    
+    
+            var circle_marker_238ddb7688c137022fb7498ad9ca0604 = L.circleMarker(
+                [25.952, -97.401],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.105702896676329, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_1d6e4c6b3b613ad5aaaead840a3eba65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a3e52ac44f59a256f66a9bd6837bc7b = $(`<div id="html_6a3e52ac44f59a256f66a9bd6837bc7b" style="width: 100.0%; height: 100.0%;">Brownsville: 599,379,669 crossings</div>`)[0];
+            popup_1d6e4c6b3b613ad5aaaead840a3eba65.setContent(html_6a3e52ac44f59a256f66a9bd6837bc7b);
+        
+
+        circle_marker_238ddb7688c137022fb7498ad9ca0604.bindPopup(popup_1d6e4c6b3b613ad5aaaead840a3eba65)
+        ;
+
+        
+    
+    
+            var circle_marker_791eecdbc223358d58dba5a2f7f9cea5 = L.circleMarker(
+                [43.095, -79.056],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.11109597090261, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_93435e34454930613b50bac8481903a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_570b25d13992211b6b485dbfcb8c331f = $(`<div id="html_570b25d13992211b6b485dbfcb8c331f" style="width: 100.0%; height: 100.0%;">Buffalo Niagara Falls: 605,879,659 crossings</div>`)[0];
+            popup_93435e34454930613b50bac8481903a2.setContent(html_570b25d13992211b6b485dbfcb8c331f);
+        
+
+        circle_marker_791eecdbc223358d58dba5a2f7f9cea5.bindPopup(popup_93435e34454930613b50bac8481903a2)
+        ;
+
+        
+    
+    
+            var circle_marker_7f5e559b8e68dd4425b941272335a882 = L.circleMarker(
+                [45.189, -67.275],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.127886287128364, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_49a0877e89ede7299233a485bd8b07ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d866ef50a79ebc832c693a2ac55a473 = $(`<div id="html_4d866ef50a79ebc832c693a2ac55a473" style="width: 100.0%; height: 100.0%;">Calais: 84,797,157 crossings</div>`)[0];
+            popup_49a0877e89ede7299233a485bd8b07ff.setContent(html_4d866ef50a79ebc832c693a2ac55a473);
+        
+
+        circle_marker_7f5e559b8e68dd4425b941272335a882.bindPopup(popup_49a0877e89ede7299233a485bd8b07ff)
+        ;
+
+        
+    
+    
+            var circle_marker_15a9d9977a484ac4d78a9eddbe45bc2c = L.circleMarker(
+                [32.673, -115.388],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.111886514277693, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_951eb24e13af3d284bcbf7790bb7c3e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a258919c2d1db233661c77e4c1cc2b44 = $(`<div id="html_a258919c2d1db233661c77e4c1cc2b44" style="width: 100.0%; height: 100.0%;">Calexico: 606,838,365 crossings</div>`)[0];
+            popup_951eb24e13af3d284bcbf7790bb7c3e1.setContent(html_a258919c2d1db233661c77e4c1cc2b44);
+        
+
+        circle_marker_15a9d9977a484ac4d78a9eddbe45bc2c.bindPopup(popup_951eb24e13af3d284bcbf7790bb7c3e1)
+        ;
+
+        
+    
+    
+            var circle_marker_5c8381a4747536950bf58ef36b39f80a = L.circleMarker(
+                [32.673, -115.388],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.711821517709046, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_44e1b1c32208951ab4d6df190e297a5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_674696912b6a2ce77d77c8f0574a3d57 = $(`<div id="html_674696912b6a2ce77d77c8f0574a3d57" style="width: 100.0%; height: 100.0%;">Calexico East: 272,634,611 crossings</div>`)[0];
+            popup_44e1b1c32208951ab4d6df190e297a5f.setContent(html_674696912b6a2ce77d77c8f0574a3d57);
+        
+
+        circle_marker_5c8381a4747536950bf58ef36b39f80a.bindPopup(popup_44e1b1c32208951ab4d6df190e297a5f)
+        ;
+
+        
+    
+    
+            var circle_marker_59d076701cb199bca65961d52add8a9e = L.circleMarker(
+                [44.135, -76.352],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.404497099008281, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_f61cdd456c5217d8cfa4f1a6ea86346e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_355381251fa7d687b1575a62c4979195 = $(`<div id="html_355381251fa7d687b1575a62c4979195" style="width: 100.0%; height: 100.0%;">Cape Vincent: 365,490 crossings</div>`)[0];
+            popup_f61cdd456c5217d8cfa4f1a6ea86346e.setContent(html_355381251fa7d687b1575a62c4979195);
+        
+
+        circle_marker_59d076701cb199bca65961d52add8a9e.bindPopup(popup_f61cdd456c5217d8cfa4f1a6ea86346e)
+        ;
+
+        
+    
+    
+            var circle_marker_ba93364079ca77b39b9434fb2c064d49 = L.circleMarker(
+                [48.999, -100.556],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.938136291052642, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_f90f9f98d1ffb0751760d42e69797d44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f0fc4adc71759898c2d299ad8c3f66e = $(`<div id="html_5f0fc4adc71759898c2d299ad8c3f66e" style="width: 100.0%; height: 100.0%;">Carbury: 1,062,646 crossings</div>`)[0];
+            popup_f90f9f98d1ffb0751760d42e69797d44.setContent(html_5f0fc4adc71759898c2d299ad8c3f66e);
+        
+
+        circle_marker_ba93364079ca77b39b9434fb2c064d49.bindPopup(popup_f90f9f98d1ffb0751760d42e69797d44)
+        ;
+
+        
+    
+    
+            var circle_marker_955c6e1fa6a306c962fc845b5d5a1b1e = L.circleMarker(
+                [45.009, -73.453],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.332495490024243, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_9bf5af08bee61c66f77f81a99a31cef6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5e7e3538daef7ebc2689dd78b0ce7b3 = $(`<div id="html_d5e7e3538daef7ebc2689dd78b0ce7b3" style="width: 100.0%; height: 100.0%;">Champlain Rouses Point: 127,674,036 crossings</div>`)[0];
+            popup_9bf5af08bee61c66f77f81a99a31cef6.setContent(html_d5e7e3538daef7ebc2689dd78b0ce7b3);
+        
+
+        circle_marker_955c6e1fa6a306c962fc845b5d5a1b1e.bindPopup(popup_9bf5af08bee61c66f77f81a99a31cef6)
+        ;
+
+        
+    
+    
+            var circle_marker_9e252d6e60f2d8542e49c9b23389583f = L.circleMarker(
+                [31.784, -107.628],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.764994667716664, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_8459ad568acb53a1df25c106c535cb61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee6cba2af5d628391765abfcceb0140c = $(`<div id="html_ee6cba2af5d628391765abfcceb0140c" style="width: 100.0%; height: 100.0%;">Columbus: 41,037,192 crossings</div>`)[0];
+            popup_8459ad568acb53a1df25c106c535cb61.setContent(html_ee6cba2af5d628391765abfcceb0140c);
+        
+
+        circle_marker_9e252d6e60f2d8542e49c9b23389583f.bindPopup(popup_8459ad568acb53a1df25c106c535cb61)
+        ;
+
+        
+    
+    
+            var circle_marker_aa8e1ca7c3627bbb784ac91b719c2f1b = L.circleMarker(
+                [32.548, -116.974],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.14592257790144, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_f53c1ca57b73fa8f44acacf75d637ba2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4d7ac2bc5b282d40cc1d16c2a43ca4b = $(`<div id="html_d4d7ac2bc5b282d40cc1d16c2a43ca4b" style="width: 100.0%; height: 100.0%;">Cross Border Xpress: 11,897,575 crossings</div>`)[0];
+            popup_f53c1ca57b73fa8f44acacf75d637ba2.setContent(html_d4d7ac2bc5b282d40cc1d16c2a43ca4b);
+        
+
+        circle_marker_aa8e1ca7c3627bbb784ac91b719c2f1b.bindPopup(popup_f53c1ca57b73fa8f44acacf75d637ba2)
+        ;
+
+        
+    
+    
+            var circle_marker_9d1c6d73c0a12a58e614ed88471cc8f1 = L.circleMarker(
+                [59.451, -136.362],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.1508456889985155, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_269b00bf140cab54031cc64019f65552 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_604c1af10c04ca81f92ff7d4906e59c3 = $(`<div id="html_604c1af10c04ca81f92ff7d4906e59c3" style="width: 100.0%; height: 100.0%;">Dalton Cache: 1,626,094 crossings</div>`)[0];
+            popup_269b00bf140cab54031cc64019f65552.setContent(html_604c1af10c04ca81f92ff7d4906e59c3);
+        
+
+        circle_marker_9d1c6d73c0a12a58e614ed88471cc8f1.bindPopup(popup_269b00bf140cab54031cc64019f65552)
+        ;
+
+        
+    
+    
+            var circle_marker_62df67c11b993a9ecc9b9242e6073054 = L.circleMarker(
+                [49.0, -118.504],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.599318954699481, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_48223ccd65db11d3efc2c7dcd5a60c34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32953fd513b614be8573f72b4d668ad6 = $(`<div id="html_32953fd513b614be8573f72b4d668ad6" style="width: 100.0%; height: 100.0%;">Danville: 3,987,352 crossings</div>`)[0];
+            popup_48223ccd65db11d3efc2c7dcd5a60c34.setContent(html_32953fd513b614be8573f72b4d668ad6);
+        
+
+        circle_marker_62df67c11b993a9ecc9b9242e6073054.bindPopup(popup_48223ccd65db11d3efc2c7dcd5a60c34)
+        ;
+
+        
+    
+    
+            var circle_marker_1ca9d295c30ebc9ef0f928cbae9c21b1 = L.circleMarker(
+                [48.999, -112.788],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.246359951644373, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_ca939e4aed28e96d698476d1cc58ac35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f8224c2612ad290fe04b56467a84174 = $(`<div id="html_1f8224c2612ad290fe04b56467a84174" style="width: 100.0%; height: 100.0%;">Del Bonita: 1,968,377 crossings</div>`)[0];
+            popup_ca939e4aed28e96d698476d1cc58ac35.setContent(html_1f8224c2612ad290fe04b56467a84174);
+        
+
+        circle_marker_1ca9d295c30ebc9ef0f928cbae9c21b1.bindPopup(popup_ca939e4aed28e96d698476d1cc58ac35)
+        ;
+
+        
+    
+    
+            var circle_marker_10c317d90b3c4bfe9e336712ffb32a28 = L.circleMarker(
+                [29.327, -100.928],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.4407171489294, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_5aef4170423e4d360f381d3769935b33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08b1990b82d7725474a10128484bd1e9 = $(`<div id="html_08b1990b82d7725474a10128484bd1e9" style="width: 100.0%; height: 100.0%;">Del Rio: 158,526,812 crossings</div>`)[0];
+            popup_5aef4170423e4d360f381d3769935b33.setContent(html_08b1990b82d7725474a10128484bd1e9);
+        
+
+        circle_marker_10c317d90b3c4bfe9e336712ffb32a28.bindPopup(popup_5aef4170423e4d360f381d3769935b33)
+        ;
+
+        
+    
+    
+            var circle_marker_9f0b9b3fab122987030ec3509c2fcb7d = L.circleMarker(
+                [45.006, -72.099],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.932369965010176, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_465563bc049742b45bc1d0b9c6fac592 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6df22bed4ba5b4be333574350c1bcaf = $(`<div id="html_e6df22bed4ba5b4be333574350c1bcaf" style="width: 100.0%; height: 100.0%;">Derby Line: 57,353,242 crossings</div>`)[0];
+            popup_465563bc049742b45bc1d0b9c6fac592.setContent(html_e6df22bed4ba5b4be333574350c1bcaf);
+        
+
+        circle_marker_9f0b9b3fab122987030ec3509c2fcb7d.bindPopup(popup_465563bc049742b45bc1d0b9c6fac592)
+        ;
+
+        
+    
+    
+            var circle_marker_81241727040e3d02cda5318997029dbb = L.circleMarker(
+                [42.332, -83.048],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.055253095377145, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_76d515c99357ba2b40dd6e0b3d4e1c4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bf58c714ca836af551e48c39cf426c7 = $(`<div id="html_0bf58c714ca836af551e48c39cf426c7" style="width: 100.0%; height: 100.0%;">Detroit: 541,853,480 crossings</div>`)[0];
+            popup_76d515c99357ba2b40dd6e0b3d4e1c4b.setContent(html_0bf58c714ca836af551e48c39cf426c7);
+        
+
+        circle_marker_81241727040e3d02cda5318997029dbb.bindPopup(popup_76d515c99357ba2b40dd6e0b3d4e1c4b)
+        ;
+
+        
+    
+    
+            var circle_marker_839174c1e90aa338641a76eb80128b2e = L.circleMarker(
+                [31.334, -109.56],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.52310265421966, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_1af085a5dc2c9f1e030c5a9f798cf4dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41ac50efb1575b013e8853d3d22f4efb = $(`<div id="html_41ac50efb1575b013e8853d3d22f4efb" style="width: 100.0%; height: 100.0%;">Douglas: 186,922,623 crossings</div>`)[0];
+            popup_1af085a5dc2c9f1e030c5a9f798cf4dc.setContent(html_41ac50efb1575b013e8853d3d22f4efb);
+        
+
+        circle_marker_839174c1e90aa338641a76eb80128b2e.bindPopup(popup_1af085a5dc2c9f1e030c5a9f798cf4dc)
+        ;
+
+        
+    
+    
+            var circle_marker_99964de734029ed150aa7bad245fe373 = L.circleMarker(
+                [48.999, -100.052],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.883722547662602, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_8e495c650ce6d1afd0c17eca49a34e42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf4e11ecfb9930dfb1105304906c39d1 = $(`<div id="html_cf4e11ecfb9930dfb1105304906c39d1" style="width: 100.0%; height: 100.0%;">Dunseith: 7,042,298 crossings</div>`)[0];
+            popup_8e495c650ce6d1afd0c17eca49a34e42.setContent(html_cf4e11ecfb9930dfb1105304906c39d1);
+        
+
+        circle_marker_99964de734029ed150aa7bad245fe373.bindPopup(popup_8e495c650ce6d1afd0c17eca49a34e42)
+        ;
+
+        
+    
+    
+            var circle_marker_9df88a25afa2398ef94a6e5990dc902c = L.circleMarker(
+                [28.705, -100.512],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.770193638200615, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_3e583c4d375deabdacbc5ca52b429efc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3725b9d24353540fa5796f339a4c7907 = $(`<div id="html_3725b9d24353540fa5796f339a4c7907" style="width: 100.0%; height: 100.0%;">Eagle Pass: 306,395,490 crossings</div>`)[0];
+            popup_3e583c4d375deabdacbc5ca52b429efc.setContent(html_3725b9d24353540fa5796f339a4c7907);
+        
+
+        circle_marker_9df88a25afa2398ef94a6e5990dc902c.bindPopup(popup_3e583c4d375deabdacbc5ca52b429efc)
+        ;
+
+        
+    
+    
+            var circle_marker_052d88025c83280f1ac9669f5ebadd0b = L.circleMarker(
+                [44.859, -66.98],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.952846665262333, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_242b464e3b28422ac7f588c4933bb737 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f00f07eb5013f5ba55dfd6283009911 = $(`<div id="html_7f00f07eb5013f5ba55dfd6283009911" style="width: 100.0%; height: 100.0%;">Eastport: 8,086,393 crossings</div>`)[0];
+            popup_242b464e3b28422ac7f588c4933bb737.setContent(html_7f00f07eb5013f5ba55dfd6283009911);
+        
+
+        circle_marker_052d88025c83280f1ac9669f5ebadd0b.bindPopup(popup_242b464e3b28422ac7f588c4933bb737)
+        ;
+
+        
+    
+    
+            var circle_marker_ea7446c6bfa8fd637ea016a4830614e8 = L.circleMarker(
+                [49.001, -116.181],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.232208434795641, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_b8c362e1ea20d7c13a7d5effb3e79b2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0442c627bade1bf879d0efa7ac37c14a = $(`<div id="html_0442c627bade1bf879d0efa7ac37c14a" style="width: 100.0%; height: 100.0%;">Eastport: 14,138,567 crossings</div>`)[0];
+            popup_b8c362e1ea20d7c13a7d5effb3e79b2c.setContent(html_0442c627bade1bf879d0efa7ac37c14a);
+        
+
+        circle_marker_ea7446c6bfa8fd637ea016a4830614e8.bindPopup(popup_b8c362e1ea20d7c13a7d5effb3e79b2c)
+        ;
+
+        
+    
+    
+            var circle_marker_06b757933e7015ef87045ed7f65bdb57 = L.circleMarker(
+                [31.764, -106.451],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.490505167584548, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_cc453a1b126f5bad0ffb0041d88951b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16988945c5b23e86e0a0284513cbf1a7 = $(`<div id="html_16988945c5b23e86e0a0284513cbf1a7" style="width: 100.0%; height: 100.0%;">El Paso: 1,294,008,155 crossings</div>`)[0];
+            popup_cc453a1b126f5bad0ffb0041d88951b3.setContent(html_16988945c5b23e86e0a0284513cbf1a7);
+        
+
+        circle_marker_06b757933e7015ef87045ed7f65bdb57.bindPopup(popup_cc453a1b126f5bad0ffb0041d88951b3)
+        ;
+
+        
+    
+    
+            var circle_marker_3c6475cc1f74646bfe29f1d05948a1c4 = L.circleMarker(
+                [49.0, -118.761],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.852898624649972, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_255b854f11e83494d56877ce6651808f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a6cf2116e0a9bb2c95f6b722877afb8 = $(`<div id="html_2a6cf2116e0a9bb2c95f6b722877afb8" style="width: 100.0%; height: 100.0%;">Ferry: 896,091 crossings</div>`)[0];
+            popup_255b854f11e83494d56877ce6651808f.setContent(html_2a6cf2116e0a9bb2c95f6b722877afb8);
+        
+
+        circle_marker_3c6475cc1f74646bfe29f1d05948a1c4.bindPopup(popup_255b854f11e83494d56877ce6651808f)
+        ;
+
+        
+    
+    
+            var circle_marker_a57904ba1d781b8fb32cd179588d17b9 = L.circleMarker(
+                [46.765, -67.789],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.184003425364999, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_7f6804582e7a9163fe33621ab4ab8292 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82956d2392cbba27e7967a7a64161663 = $(`<div id="html_82956d2392cbba27e7967a7a64161663" style="width: 100.0%; height: 100.0%;">Fort Fairfield: 12,839,114 crossings</div>`)[0];
+            popup_7f6804582e7a9163fe33621ab4ab8292.setContent(html_82956d2392cbba27e7967a7a64161663);
+        
+
+        circle_marker_a57904ba1d781b8fb32cd179588d17b9.bindPopup(popup_7f6804582e7a9163fe33621ab4ab8292)
+        ;
+
+        
+    
+    
+            var circle_marker_d73bdf90ec7a70296496a9a3303c8266 = L.circleMarker(
+                [47.249, -68.604],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.314716631817808, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_b8281738bd3bb073ce82b6b893fd7916 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82bc14a6e581b2f16f0f130a1e3882ef = $(`<div id="html_82bc14a6e581b2f16f0f130a1e3882ef" style="width: 100.0%; height: 100.0%;">Fort Kent: 16,675,202 crossings</div>`)[0];
+            popup_b8281738bd3bb073ce82b6b893fd7916.setContent(html_82bc14a6e581b2f16f0f130a1e3882ef);
+        
+
+        circle_marker_d73bdf90ec7a70296496a9a3303c8266.bindPopup(popup_b8281738bd3bb073ce82b6b893fd7916)
+        ;
+
+        
+    
+    
+            var circle_marker_498c550f0780e8f719b97fb60992b315 = L.circleMarker(
+                [49.0, -103.809],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.979523120191097, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_b1a9526de098429b7963e2cb4cc6cfb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b972ebb77046a5f0bf6eb5f33e14f69b = $(`<div id="html_b972ebb77046a5f0bf6eb5f33e14f69b" style="width: 100.0%; height: 100.0%;">Fortuna: 1,154,348 crossings</div>`)[0];
+            popup_b1a9526de098429b7963e2cb4cc6cfb3.setContent(html_b972ebb77046a5f0bf6eb5f33e14f69b);
+        
+
+        circle_marker_498c550f0780e8f719b97fb60992b315.bindPopup(popup_b1a9526de098429b7963e2cb4cc6cfb3)
+        ;
+
+        
+    
+    
+            var circle_marker_e2df3525dadaeb7e03bbd1e5e0cc3a00 = L.circleMarker(
+                [48.534, -123.016],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.051557398355428, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_38db71a07abc6d46c331ffe5f5becf23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_277e5fbc2e7da6bcd8feb16b033bcf6f = $(`<div id="html_277e5fbc2e7da6bcd8feb16b033bcf6f" style="width: 100.0%; height: 100.0%;">Friday Harbor: 180,433 crossings</div>`)[0];
+            popup_38db71a07abc6d46c331ffe5f5becf23.setContent(html_277e5fbc2e7da6bcd8feb16b033bcf6f);
+        
+
+        circle_marker_e2df3525dadaeb7e03bbd1e5e0cc3a00.bindPopup(popup_38db71a07abc6d46c331ffe5f5becf23)
+        ;
+
+        
+    
+    
+            var circle_marker_3117b655611eca5097d90c8572d28b41 = L.circleMarker(
+                [49.0, -117.832],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.680291580462732, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_25946e1d9656d1028d2f24ab67a75ec4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bf26b21fa7a2117ce3a086fc191e79e = $(`<div id="html_0bf26b21fa7a2117ce3a086fc191e79e" style="width: 100.0%; height: 100.0%;">Frontier: 4,688,312 crossings</div>`)[0];
+            popup_25946e1d9656d1028d2f24ab67a75ec4.setContent(html_0bf26b21fa7a2117ce3a086fc191e79e);
+        
+
+        circle_marker_3117b655611eca5097d90c8572d28b41.bindPopup(popup_25946e1d9656d1028d2f24ab67a75ec4)
+        ;
+
+        
+    
+    
+            var circle_marker_4c81012ea07962887adc8bd35991ffe6 = L.circleMarker(
+                [48.001, -89.585],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.444806370422237, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_03eded93fc79b3fd811af7fa07fb85ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5e45649f9f5afdd2326da46790b3b06 = $(`<div id="html_e5e45649f9f5afdd2326da46790b3b06" style="width: 100.0%; height: 100.0%;">Grand Portage: 21,630,453 crossings</div>`)[0];
+            popup_03eded93fc79b3fd811af7fa07fb85ca.setContent(html_e5e45649f9f5afdd2326da46790b3b06);
+        
+
+        circle_marker_4c81012ea07962887adc8bd35991ffe6.bindPopup(popup_03eded93fc79b3fd811af7fa07fb85ca)
+        ;
+
+        
+    
+    
+            var circle_marker_40952fd26807099bfe7f22637b7e5da9 = L.circleMarker(
+                [49.0, -98.694],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.28950383742836, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_89ea4a4f6bf91bc1891fda65e9ee6675 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_131aeeb58a5b49f0998dfb5c88ca8d98 = $(`<div id="html_131aeeb58a5b49f0998dfb5c88ca8d98" style="width: 100.0%; height: 100.0%;">Hannah: 290,398 crossings</div>`)[0];
+            popup_89ea4a4f6bf91bc1891fda65e9ee6675.setContent(html_131aeeb58a5b49f0998dfb5c88ca8d98);
+        
+
+        circle_marker_40952fd26807099bfe7f22637b7e5da9.bindPopup(popup_89ea4a4f6bf91bc1891fda65e9ee6675)
+        ;
+
+        
+    
+    
+            var circle_marker_073148d2ddee38762542f789d05cef73 = L.circleMarker(
+                [49.0, -99.347],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.842005692348376, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_74e0adf37ac170563ddb52ab76cb294e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4437ddacfa7501fc210a81ce896eed64 = $(`<div id="html_4437ddacfa7501fc210a81ce896eed64" style="width: 100.0%; height: 100.0%;">Hansboro: 876,780 crossings</div>`)[0];
+            popup_74e0adf37ac170563ddb52ab76cb294e.setContent(html_4437ddacfa7501fc210a81ce896eed64);
+        
+
+        circle_marker_073148d2ddee38762542f789d05cef73.bindPopup(popup_74e0adf37ac170563ddb52ab76cb294e)
+        ;
+
+        
+    
+    
+            var circle_marker_08479e0332fd62b852001b1c042e8734 = L.circleMarker(
+                [26.095, -98.271],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.148659826338838, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_9e57148b3cea01bf4d6e583bb7d206f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_699138c453d7d40efcff36f2466c7e2d = $(`<div id="html_699138c453d7d40efcff36f2466c7e2d" style="width: 100.0%; height: 100.0%;">Hidalgo: 653,151,491 crossings</div>`)[0];
+            popup_9e57148b3cea01bf4d6e583bb7d206f8.setContent(html_699138c453d7d40efcff36f2466c7e2d);
+        
+
+        circle_marker_08479e0332fd62b852001b1c042e8734.bindPopup(popup_9e57148b3cea01bf4d6e583bb7d206f8)
+        ;
+
+        
+    
+    
+            var circle_marker_ab5f8eafcdfc38142b9e82f4c37e61bc = L.circleMarker(
+                [45.015, -73.085],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.850871349972646, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_9b613b127961a1b00373411e1db3eedf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d89096e8c6936775f65234addc4ffd09 = $(`<div id="html_d89096e8c6936775f65234addc4ffd09" style="width: 100.0%; height: 100.0%;">Highgate Springs: 48,726,944 crossings</div>`)[0];
+            popup_9b613b127961a1b00373411e1db3eedf.setContent(html_d89096e8c6936775f65234addc4ffd09);
+        
+
+        circle_marker_ab5f8eafcdfc38142b9e82f4c37e61bc.bindPopup(popup_9b613b127961a1b00373411e1db3eedf)
+        ;
+
+        
+    
+    
+            var circle_marker_4e38540f48e6b080f9336453e8fd964e = L.circleMarker(
+                [46.135, -67.781],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.633451843464735, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_7e2f884c1a64db9dd9c9ef3315a3f38b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ee37b58c35b3ecea332db482662828d = $(`<div id="html_2ee37b58c35b3ecea332db482662828d" style="width: 100.0%; height: 100.0%;">Houlton: 31,544,307 crossings</div>`)[0];
+            popup_7e2f884c1a64db9dd9c9ef3315a3f38b.setContent(html_2ee37b58c35b3ecea332db482662828d);
+        
+
+        circle_marker_4e38540f48e6b080f9336453e8fd964e.bindPopup(popup_7e2f884c1a64db9dd9c9ef3315a3f38b)
+        ;
+
+        
+    
+    
+            var circle_marker_5ab9d73c88e6ec75dab8dc2801235455 = L.circleMarker(
+                [48.608, -93.401],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.88690341474812, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_3e71d57bbfa0bd8a9ee9fb2e8ee4ef11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b5a030662fce7f34f1f916212cdf3f5 = $(`<div id="html_5b5a030662fce7f34f1f916212cdf3f5" style="width: 100.0%; height: 100.0%;">International Falls: 52,368,029 crossings</div>`)[0];
+            popup_3e71d57bbfa0bd8a9ee9fb2e8ee4ef11.setContent(html_5b5a030662fce7f34f1f916212cdf3f5);
+        
+
+        circle_marker_5ab9d73c88e6ec75dab8dc2801235455.bindPopup(popup_3e71d57bbfa0bd8a9ee9fb2e8ee4ef11)
+        ;
+
+        
+    
+    
+            var circle_marker_c5ff18fd22b9e62415f9b1fee4e59805 = L.circleMarker(
+                [45.806, -70.397],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.394715793149535, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_8516dfcfaa2d49f9e6d4d0de00498831 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_859c32dee8276a7cbd4b5d16131601be = $(`<div id="html_859c32dee8276a7cbd4b5d16131601be" style="width: 100.0%; height: 100.0%;">Jackman: 19,568,498 crossings</div>`)[0];
+            popup_8516dfcfaa2d49f9e6d4d0de00498831.setContent(html_859c32dee8276a7cbd4b5d16131601be);
+        
+
+        circle_marker_c5ff18fd22b9e62415f9b1fee4e59805.bindPopup(popup_8516dfcfaa2d49f9e6d4d0de00498831)
+        ;
+
+        
+    
+    
+            var circle_marker_d9a407b039f7e80463ffcbead8803b7f = L.circleMarker(
+                [49.002, -122.485],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.88523547863845, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_77c8f5bba3da185dcb5d169eb1c2fb02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21269cbcf27d1f951e1f4529039762ef = $(`<div id="html_21269cbcf27d1f951e1f4529039762ef" style="width: 100.0%; height: 100.0%;">Kenneth G Ward: 52,193,627 crossings</div>`)[0];
+            popup_77c8f5bba3da185dcb5d169eb1c2fb02.setContent(html_21269cbcf27d1f951e1f4529039762ef);
+        
+
+        circle_marker_d9a407b039f7e80463ffcbead8803b7f.bindPopup(popup_77c8f5bba3da185dcb5d169eb1c2fb02)
+        ;
+
+        
+    
+    
+            var circle_marker_faf4bf872fd205aef76c3b11c7b40f87 = L.circleMarker(
+                [55.342, -131.648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.092871189528461, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_95617cb62b474d9d5663550457f71622 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc94c4d60176e457be3021a190fe2d8a = $(`<div id="html_dc94c4d60176e457be3021a190fe2d8a" style="width: 100.0%; height: 100.0%;">Ketchikan: 195,975 crossings</div>`)[0];
+            popup_95617cb62b474d9d5663550457f71622.setContent(html_dc94c4d60176e457be3021a190fe2d8a);
+        
+
+        circle_marker_faf4bf872fd205aef76c3b11c7b40f87.bindPopup(popup_95617cb62b474d9d5663550457f71622)
+        ;
+
+        
+    
+    
+            var circle_marker_dd500c27fb9b1993d8e76ee6378029ac = L.circleMarker(
+                [49.0, -96.801],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.368966227884335, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_0e50e9aa5f82f0257440d5c622b91edb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c04bfd4c85e3b257b6aafeaa58a5d16b = $(`<div id="html_c04bfd4c85e3b257b6aafeaa58a5d16b" style="width: 100.0%; height: 100.0%;">Lancaster: 2,515,375 crossings</div>`)[0];
+            popup_0e50e9aa5f82f0257440d5c622b91edb.setContent(html_c04bfd4c85e3b257b6aafeaa58a5d16b);
+        
+
+        circle_marker_dd500c27fb9b1993d8e76ee6378029ac.bindPopup(popup_0e50e9aa5f82f0257440d5c622b91edb)
+        ;
+
+        
+    
+    
+            var circle_marker_7aa8be093eb341f5eae66fd08e10a8a7 = L.circleMarker(
+                [27.5, -99.507],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.235240439483253, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_925f53e9fa7847b4ddfc55abce4d4943 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_716eea10fbf5fe721e0f79c6a7cea8e5 = $(`<div id="html_716eea10fbf5fe721e0f79c6a7cea8e5" style="width: 100.0%; height: 100.0%;">Laredo: 776,634,873 crossings</div>`)[0];
+            popup_925f53e9fa7847b4ddfc55abce4d4943.setContent(html_716eea10fbf5fe721e0f79c6a7cea8e5);
+        
+
+        circle_marker_7aa8be093eb341f5eae66fd08e10a8a7.bindPopup(popup_925f53e9fa7847b4ddfc55abce4d4943)
+        ;
+
+        
+    
+    
+            var circle_marker_59a2abac1e5f0e32c3d3d513857845a8 = L.circleMarker(
+                [49.0, -118.224],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.653703140368132, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_3a7dcc3e305c11f7352cf1da6add9544 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cdd73360525aa948a1eb51b24974195a = $(`<div id="html_cdd73360525aa948a1eb51b24974195a" style="width: 100.0%; height: 100.0%;">Laurier: 4,445,515 crossings</div>`)[0];
+            popup_3a7dcc3e305c11f7352cf1da6add9544.setContent(html_cdd73360525aa948a1eb51b24974195a);
+        
+
+        circle_marker_59a2abac1e5f0e32c3d3d513857845a8.bindPopup(popup_3a7dcc3e305c11f7352cf1da6add9544)
+        ;
+
+        
+    
+    
+            var circle_marker_49deb67cba6f59e30c7f6cad39f5b38e = L.circleMarker(
+                [46.925, -67.79],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.472864048579411, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_b2174046d1edc3e51f0c855301bcc1db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59c8eb7d890dbc8a8af2dc5c751e4698 = $(`<div id="html_59c8eb7d890dbc8a8af2dc5c751e4698" style="width: 100.0%; height: 100.0%;">Limestone: 3,096,330 crossings</div>`)[0];
+            popup_b2174046d1edc3e51f0c855301bcc1db.setContent(html_59c8eb7d890dbc8a8af2dc5c751e4698);
+        
+
+        circle_marker_49deb67cba6f59e30c7f6cad39f5b38e.bindPopup(popup_b2174046d1edc3e51f0c855301bcc1db)
+        ;
+
+        
+    
+    
+            var circle_marker_d87ffcde20f110d5bdf2ebd12c5f85dd = L.circleMarker(
+                [31.88, -112.817],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.773324351028561, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_cb42a893fe6f9cfc76d5bc2c24a0764f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad2bd93ea0c7d088a2e31aa932c34b41 = $(`<div id="html_ad2bd93ea0c7d088a2e31aa932c34b41" style="width: 100.0%; height: 100.0%;">Lukeville: 41,726,572 crossings</div>`)[0];
+            popup_cb42a893fe6f9cfc76d5bc2c24a0764f.setContent(html_ad2bd93ea0c7d088a2e31aa932c34b41);
+        
+
+        circle_marker_d87ffcde20f110d5bdf2ebd12c5f85dd.bindPopup(popup_cb42a893fe6f9cfc76d5bc2c24a0764f)
+        ;
+
+        
+    
+    
+            var circle_marker_c65dd13dab07859247d52bad7dad9d5c = L.circleMarker(
+                [47.36, -68.329],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.7874949924096, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_6c9eabc3d327326dec14ff0de7f43ea1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5481957d5d60ca32b6afec61f1ebf1c4 = $(`<div id="html_5481957d5d60ca32b6afec61f1ebf1c4" style="width: 100.0%; height: 100.0%;">Madawaska: 42,926,074 crossings</div>`)[0];
+            popup_6c9eabc3d327326dec14ff0de7f43ea1.setContent(html_5481957d5d60ca32b6afec61f1ebf1c4);
+        
+
+        circle_marker_c65dd13dab07859247d52bad7dad9d5c.bindPopup(popup_6c9eabc3d327326dec14ff0de7f43ea1)
+        ;
+
+        
+    
+    
+            var circle_marker_316cbd5c77793fe9c8ac15cae55d5343 = L.circleMarker(
+                [49.0, -98.365],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.9292313809881785, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_195f97efa7e9bbc28aa2be28b34b4d4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62348bfec9a5fbe829ac0d22f39dd890 = $(`<div id="html_62348bfec9a5fbe829ac0d22f39dd890" style="width: 100.0%; height: 100.0%;">Maida: 1,043,888 crossings</div>`)[0];
+            popup_195f97efa7e9bbc28aa2be28b34b4d4c.setContent(html_62348bfec9a5fbe829ac0d22f39dd890);
+        
+
+        circle_marker_316cbd5c77793fe9c8ac15cae55d5343.bindPopup(popup_195f97efa7e9bbc28aa2be28b34b4d4c)
+        ;
+
+        
+    
+    
+            var circle_marker_ab3d9babf631ee79616e9d85ac22ddf2 = L.circleMarker(
+                [44.991, -74.74],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.126262780287588, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_1aeb91fce0aee1d238564a9e35b0f0bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1e8b4917d76c9ae6d39ddabe06ba86f = $(`<div id="html_b1e8b4917d76c9ae6d39ddabe06ba86f" style="width: 100.0%; height: 100.0%;">Massena: 84,522,266 crossings</div>`)[0];
+            popup_1aeb91fce0aee1d238564a9e35b0f0bb.setContent(html_b1e8b4917d76c9ae6d39ddabe06ba86f);
+        
+
+        circle_marker_ab3d9babf631ee79616e9d85ac22ddf2.bindPopup(popup_1aeb91fce0aee1d238564a9e35b0f0bb)
+        ;
+
+        
+    
+    
+            var circle_marker_4756fcacac9f28a325e6a62c8c35f7a2 = L.circleMarker(
+                [49.0, -117.299],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.406148224493256, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_22708168f4a9b45b2d10223f014b3ee8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_611585e87fa013dbe971b6d49c571ed3 = $(`<div id="html_611585e87fa013dbe971b6d49c571ed3" style="width: 100.0%; height: 100.0%;">Metaline Falls: 2,709,559 crossings</div>`)[0];
+            popup_22708168f4a9b45b2d10223f014b3ee8.setContent(html_611585e87fa013dbe971b6d49c571ed3);
+        
+
+        circle_marker_4756fcacac9f28a325e6a62c8c35f7a2.bindPopup(popup_22708168f4a9b45b2d10223f014b3ee8)
+        ;
+
+        
+    
+    
+            var circle_marker_d9db0fcf62a024f294313c60e09db8bd = L.circleMarker(
+                [49.0, -107.832],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.610989410848907, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_f40ff38b6521a131c8b1ea0c7a0119b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07b770f8694e269d018ebb3211139614 = $(`<div id="html_07b770f8694e269d018ebb3211139614" style="width: 100.0%; height: 100.0%;">Morgan: 552,373 crossings</div>`)[0];
+            popup_f40ff38b6521a131c8b1ea0c7a0119b6.setContent(html_07b770f8694e269d018ebb3211139614);
+        
+
+        circle_marker_d9db0fcf62a024f294313c60e09db8bd.bindPopup(popup_f40ff38b6521a131c8b1ea0c7a0119b6)
+        ;
+
+        
+    
+    
+            var circle_marker_d1f44c61ba19887f769d316384399822 = L.circleMarker(
+                [31.334, -109.948],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.65402713688214, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_fd9b222e72ba11f2a8bd528e26d9c103 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea7a4cd7965a8fcab59ce5cc767eca7d = $(`<div id="html_ea7a4cd7965a8fcab59ce5cc767eca7d" style="width: 100.0%; height: 100.0%;">Naco: 32,869,452 crossings</div>`)[0];
+            popup_fd9b222e72ba11f2a8bd528e26d9c103.setContent(html_ea7a4cd7965a8fcab59ce5cc767eca7d);
+        
+
+        circle_marker_d1f44c61ba19887f769d316384399822.bindPopup(popup_fd9b222e72ba11f2a8bd528e26d9c103)
+        ;
+
+        
+    
+    
+            var circle_marker_f2ee54a311c2b85af6ad5c31b2c0f524 = L.circleMarker(
+                [49.001, -97.557],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.585731357531781, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_6318075acd26b3f07059ded9b055bc3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca8be7db9309f35546811255a694b965 = $(`<div id="html_ca8be7db9309f35546811255a694b965" style="width: 100.0%; height: 100.0%;">Neche: 3,880,454 crossings</div>`)[0];
+            popup_6318075acd26b3f07059ded9b055bc3b.setContent(html_ca8be7db9309f35546811255a694b965);
+        
+
+        circle_marker_f2ee54a311c2b85af6ad5c31b2c0f524.bindPopup(popup_6318075acd26b3f07059ded9b055bc3b)
+        ;
+
+        
+    
+    
+            var circle_marker_2a464baed4038040694577a18182960a = L.circleMarker(
+                [49.0, -119.671],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.6436786707377715, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_81d9761535adb5df386a28e26db9bbd1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3bcf2850764e437a9da67d3ff03d6139 = $(`<div id="html_3bcf2850764e437a9da67d3ff03d6139" style="width: 100.0%; height: 100.0%;">Nighthawk: 589,693 crossings</div>`)[0];
+            popup_81d9761535adb5df386a28e26db9bbd1.setContent(html_3bcf2850764e437a9da67d3ff03d6139);
+        
+
+        circle_marker_2a464baed4038040694577a18182960a.bindPopup(popup_81d9761535adb5df386a28e26db9bbd1)
+        ;
+
+        
+    
+    
+            var circle_marker_af26a97a2a4ae6ef6c331733f3c839bd = L.circleMarker(
+                [31.333, -110.943],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.986931335147453, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_7cee0c0604f5453f172feadbbd41e93c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a63e8bd1c3dbececeaf8cc28cfb3299 = $(`<div id="html_5a63e8bd1c3dbececeaf8cc28cfb3299" style="width: 100.0%; height: 100.0%;">Nogales: 472,648,561 crossings</div>`)[0];
+            popup_7cee0c0604f5453f172feadbbd41e93c.setContent(html_5a63e8bd1c3dbececeaf8cc28cfb3299);
+        
+
+        circle_marker_af26a97a2a4ae6ef6c331733f3c839bd.bindPopup(popup_7cee0c0604f5453f172feadbbd41e93c)
+        ;
+
+        
+    
+    
+            var circle_marker_cd04509ac1cb1038703d96d88bddd481 = L.circleMarker(
+                [48.999, -103.004],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.367115567685645, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_2592723c851ae2ba145fc79da12b7d3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34757692eb589b96f4f4e5f78d1a0c83 = $(`<div id="html_34757692eb589b96f4f4e5f78d1a0c83" style="width: 100.0%; height: 100.0%;">Noonan: 2,506,082 crossings</div>`)[0];
+            popup_2592723c851ae2ba145fc79da12b7d3d.setContent(html_34757692eb589b96f4f4e5f78d1a0c83);
+        
+
+        circle_marker_cd04509ac1cb1038703d96d88bddd481.bindPopup(popup_2592723c851ae2ba145fc79da12b7d3d)
+        ;
+
+        
+    
+    
+            var circle_marker_913ffe176ab693d25369d17d08661a4f = L.circleMarker(
+                [48.999, -102.275],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.261542334052066, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_70bafc9f193ba844a5948d0709593fb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_315a1ac8d728a957b64d6a2dc98371af = $(`<div id="html_315a1ac8d728a957b64d6a2dc98371af" style="width: 100.0%; height: 100.0%;">Northgate: 2,029,063 crossings</div>`)[0];
+            popup_70bafc9f193ba844a5948d0709593fb7.setContent(html_315a1ac8d728a957b64d6a2dc98371af);
+        
+
+        circle_marker_913ffe176ab693d25369d17d08661a4f.bindPopup(popup_70bafc9f193ba844a5948d0709593fb7)
+        ;
+
+        
+    
+    
+            var circle_marker_38acc51f858f6f08077b75956cc79620 = L.circleMarker(
+                [45.011, -71.793],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.8439363659422074, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_fca5f578f9234df8a131cd8452938ee5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_655f3ac6fa48eff93b0300c721584719 = $(`<div id="html_655f3ac6fa48eff93b0300c721584719" style="width: 100.0%; height: 100.0%;">Norton: 6,503,641 crossings</div>`)[0];
+            popup_fca5f578f9234df8a131cd8452938ee5.setContent(html_655f3ac6fa48eff93b0300c721584719);
+        
+
+        circle_marker_38acc51f858f6f08077b75956cc79620.bindPopup(popup_fca5f578f9234df8a131cd8452938ee5)
+        ;
+
+        
+    
+    
+            var circle_marker_0a2fe6e93a0450d03b8a710d5aea9fd8 = L.circleMarker(
+                [49.0, -97.207],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.233759774093, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_8df5a164fcdb945e0faf33f19aa1b745 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69aab2598eb28b8c8e2ebeacf1a316c5 = $(`<div id="html_69aab2598eb28b8c8e2ebeacf1a316c5" style="width: 100.0%; height: 100.0%;">Noyes: 1,919,393 crossings</div>`)[0];
+            popup_8df5a164fcdb945e0faf33f19aa1b745.setContent(html_69aab2598eb28b8c8e2ebeacf1a316c5);
+        
+
+        circle_marker_0a2fe6e93a0450d03b8a710d5aea9fd8.bindPopup(popup_8df5a164fcdb945e0faf33f19aa1b745)
+        ;
+
+        
+    
+    
+            var circle_marker_d406afaa884e1e01948d8b4704c8d334 = L.circleMarker(
+                [44.733, -75.458],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.548296217940024, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_a93c73221279f3b9fc7334060f4d3e62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1009205fa837ba88736179a71e322a02 = $(`<div id="html_1009205fa837ba88736179a71e322a02" style="width: 100.0%; height: 100.0%;">Ogdensburg: 26,604,540 crossings</div>`)[0];
+            popup_a93c73221279f3b9fc7334060f4d3e62.setContent(html_1009205fa837ba88736179a71e322a02);
+        
+
+        circle_marker_d406afaa884e1e01948d8b4704c8d334.bindPopup(popup_a93c73221279f3b9fc7334060f4d3e62)
+        ;
+
+        
+    
+    
+            var circle_marker_0f930c613119f19788dc757871e95901 = L.circleMarker(
+                [49.0, -106.378],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.3791304588184, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_2acd6e076a193353e1c9114e08376a1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6523760bed1a128899f33c40644a21c5 = $(`<div id="html_6523760bed1a128899f33c40644a21c5" style="width: 100.0%; height: 100.0%;">Opheim: 347,410 crossings</div>`)[0];
+            popup_2acd6e076a193353e1c9114e08376a1d.setContent(html_6523760bed1a128899f33c40644a21c5);
+        
+
+        circle_marker_0f930c613119f19788dc757871e95901.bindPopup(popup_2acd6e076a193353e1c9114e08376a1d)
+        ;
+
+        
+    
+    
+            var circle_marker_4a9ef6cb79974025283c2fb0211f1196 = L.circleMarker(
+                [49.0, -119.462],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.452904458185387, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_f0ace46c155e1fcf5536825267216a18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_896514c528fddd5ea91735c4653172f1 = $(`<div id="html_896514c528fddd5ea91735c4653172f1" style="width: 100.0%; height: 100.0%;">Oroville: 21,983,636 crossings</div>`)[0];
+            popup_f0ace46c155e1fcf5536825267216a18.setContent(html_896514c528fddd5ea91735c4653172f1);
+        
+
+        circle_marker_4a9ef6cb79974025283c2fb0211f1196.bindPopup(popup_f0ace46c155e1fcf5536825267216a18)
+        ;
+
+        
+    
+    
+            var circle_marker_c57aeb0f94525d8e67cc95e09d6ba83e = L.circleMarker(
+                [32.55, -116.939],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.070724632361825, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_fd0fb368ff64800376b97457424928f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5f10b9dccecec7f6a818fbcc57ec4cc = $(`<div id="html_d5f10b9dccecec7f6a818fbcc57ec4cc" style="width: 100.0%; height: 100.0%;">Otay Mesa: 558,882,194 crossings</div>`)[0];
+            popup_fd0fb368ff64800376b97457424928f8.setContent(html_d5f10b9dccecec7f6a818fbcc57ec4cc);
+        
+
+        circle_marker_c57aeb0f94525d8e67cc95e09d6ba83e.bindPopup(popup_fd0fb368ff64800376b97457424928f8)
+        ;
+
+        
+    
+    
+            var circle_marker_f3890fc8fcd392f90db92e7a03104f7b = L.circleMarker(
+                [49.0, -97.237],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.759136214435818, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_23897f65874d791553d942678942b7fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b57baa08837eed051a7921915ef196e = $(`<div id="html_6b57baa08837eed051a7921915ef196e" style="width: 100.0%; height: 100.0%;">Pembina: 40,559,169 crossings</div>`)[0];
+            popup_23897f65874d791553d942678942b7fb.setContent(html_6b57baa08837eed051a7921915ef196e);
+        
+
+        circle_marker_f3890fc8fcd392f90db92e7a03104f7b.bindPopup(popup_23897f65874d791553d942678942b7fb)
+        ;
+
+        
+    
+    
+            var circle_marker_818b1f9630c0ebef061ac98e34696057 = L.circleMarker(
+                [48.998, -113.379],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.12250074021703, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_75d77adaa17180178b654d75d57177f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d64680efda7323cf2a2011c91040b8f = $(`<div id="html_4d64680efda7323cf2a2011c91040b8f" style="width: 100.0%; height: 100.0%;">Piegan: 11,353,101 crossings</div>`)[0];
+            popup_75d77adaa17180178b654d75d57177f6.setContent(html_4d64680efda7323cf2a2011c91040b8f);
+        
+
+        circle_marker_818b1f9630c0ebef061ac98e34696057.bindPopup(popup_75d77adaa17180178b654d75d57177f6)
+        ;
+
+        
+    
+    
+            var circle_marker_e110737f49433eb6139d2a60552510d6 = L.circleMarker(
+                [49.0, -95.978],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.516258720695426, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_4794ce0166e5615eab43b1334519a607 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11378afbab171706517436a7c22604cb = $(`<div id="html_11378afbab171706517436a7c22604cb" style="width: 100.0%; height: 100.0%;">Pinecreek: 457,036 crossings</div>`)[0];
+            popup_4794ce0166e5615eab43b1334519a607.setContent(html_11378afbab171706517436a7c22604cb);
+        
+
+        circle_marker_e110737f49433eb6139d2a60552510d6.bindPopup(popup_4794ce0166e5615eab43b1334519a607)
+        ;
+
+        
+    
+    
+            var circle_marker_75d4872a18a679bde52ae58e091ca071 = L.circleMarker(
+                [49.002, -123.068],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.999009053714705, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_de4e04ee8beaa547668d012a8d5bf16c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc9eeb23a80376b227746ae54f3b0971 = $(`<div id="html_dc9eeb23a80376b227746ae54f3b0971" style="width: 100.0%; height: 100.0%;">Point Roberts: 65,529,967 crossings</div>`)[0];
+            popup_de4e04ee8beaa547668d012a8d5bf16c.setContent(html_dc9eeb23a80376b227746ae54f3b0971);
+        
+
+        circle_marker_75d4872a18a679bde52ae58e091ca071.bindPopup(popup_de4e04ee8beaa547668d012a8d5bf16c)
+        ;
+
+        
+    
+    
+            var circle_marker_a25ce83e8660623b409b34adda7795fe = L.circleMarker(
+                [48.122, -123.431],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.533360303509225, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_4e6db08d410444da983b150c1e030bce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a645b8af328092649abbb6d70644d036 = $(`<div id="html_a645b8af328092649abbb6d70644d036" style="width: 100.0%; height: 100.0%;">Port Angeles: 3,494,569 crossings</div>`)[0];
+            popup_4e6db08d410444da983b150c1e030bce.setContent(html_a645b8af328092649abbb6d70644d036);
+        
+
+        circle_marker_a25ce83e8660623b409b34adda7795fe.bindPopup(popup_4e6db08d410444da983b150c1e030bce)
+        ;
+
+        
+    
+    
+            var circle_marker_d2a19be45b603fa5cb0dc526377837bd = L.circleMarker(
+                [42.999, -82.424],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.589194514103697, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_1cf17b368f2f808b29beee27bbcc98c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b5cee0844d7405ccb06428f6297ff39 = $(`<div id="html_7b5cee0844d7405ccb06428f6297ff39" style="width: 100.0%; height: 100.0%;">Port Huron: 213,338,151 crossings</div>`)[0];
+            popup_1cf17b368f2f808b29beee27bbcc98c9.setContent(html_7b5cee0844d7405ccb06428f6297ff39);
+        
+
+        circle_marker_d2a19be45b603fa5cb0dc526377837bd.bindPopup(popup_1cf17b368f2f808b29beee27bbcc98c9)
+        ;
+
+        
+    
+    
+            var circle_marker_e7a623ace6a88554558874502d6049e3 = L.circleMarker(
+                [48.999, -102.552],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.375762310331137, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_8ece05cc735b4c73be59f965e31d855d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ad66a591cd90b40288b0cafe8a1d383 = $(`<div id="html_2ad66a591cd90b40288b0cafe8a1d383" style="width: 100.0%; height: 100.0%;">Portal: 18,840,599 crossings</div>`)[0];
+            popup_8ece05cc735b4c73be59f965e31d855d.setContent(html_2ad66a591cd90b40288b0cafe8a1d383);
+        
+
+        circle_marker_e7a623ace6a88554558874502d6049e3.bindPopup(popup_8ece05cc735b4c73be59f965e31d855d)
+        ;
+
+        
+    
+    
+            var circle_marker_057e614e8998129d283cc2b016746086 = L.circleMarker(
+                [49.0, -116.499],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.069536000468583, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_37be9daebe02c206d04b343b50736c43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2db77b414aef1059b7bcbd0886a87de = $(`<div id="html_c2db77b414aef1059b7bcbd0886a87de" style="width: 100.0%; height: 100.0%;">Porthill: 10,211,979 crossings</div>`)[0];
+            popup_37be9daebe02c206d04b343b50736c43.setContent(html_c2db77b414aef1059b7bcbd0886a87de);
+        
+
+        circle_marker_057e614e8998129d283cc2b016746086.bindPopup(popup_37be9daebe02c206d04b343b50736c43)
+        ;
+
+        
+    
+    
+            var circle_marker_c585487cc188b5fea35c802ec075742e = L.circleMarker(
+                [43.659, -70.243],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.885692598332102, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_d6d9b56941397b023437d9f5ebd4b269 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b90a5f3a01d7517b8c68de179421b9d = $(`<div id="html_9b90a5f3a01d7517b8c68de179421b9d" style="width: 100.0%; height: 100.0%;">Portland: 956,834 crossings</div>`)[0];
+            popup_d6d9b56941397b023437d9f5ebd4b269.setContent(html_9b90a5f3a01d7517b8c68de179421b9d);
+        
+
+        circle_marker_c585487cc188b5fea35c802ec075742e.bindPopup(popup_d6d9b56941397b023437d9f5ebd4b269)
+        ;
+
+        
+    
+    
+            var circle_marker_d6b5dd4ac1cd053d9b71efe9953b6c65 = L.circleMarker(
+                [29.562, -104.395],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.009947072267444, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_3072fb9da4daa870471377b824229a1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cc3cbd790b2ce4025170e948e523f2d = $(`<div id="html_2cc3cbd790b2ce4025170e948e523f2d" style="width: 100.0%; height: 100.0%;">Presidio: 66,979,298 crossings</div>`)[0];
+            popup_3072fb9da4daa870471377b824229a1d.setContent(html_2cc3cbd790b2ce4025170e948e523f2d);
+        
+
+        circle_marker_d6b5dd4ac1cd053d9b71efe9953b6c65.bindPopup(popup_3072fb9da4daa870471377b824229a1d)
+        ;
+
+        
+    
+    
+            var circle_marker_61c378275fc31490c44fdfe6157ba78c = L.circleMarker(
+                [26.062, -97.95],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.368137850880268, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_42439bf991ecc935fea8536a1a04e96c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4fc89074cb9ea812b123663b5b86e45 = $(`<div id="html_c4fc89074cb9ea812b123663b5b86e45" style="width: 100.0%; height: 100.0%;">Progreso: 137,107,480 crossings</div>`)[0];
+            popup_42439bf991ecc935fea8536a1a04e96c.setContent(html_c4fc89074cb9ea812b123663b5b86e45);
+        
+
+        circle_marker_61c378275fc31490c44fdfe6157ba78c.bindPopup(popup_42439bf991ecc935fea8536a1a04e96c)
+        ;
+
+        
+    
+    
+            var circle_marker_df52c7ec9f74a565cd6eeeb8f5272fb8 = L.circleMarker(
+                [48.999, -104.574],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.523001250443916, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_83114400ee2bd35f91e70e59b2f39c36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50f4125f44f03975feb7d74960547149 = $(`<div id="html_50f4125f44f03975feb7d74960547149" style="width: 100.0%; height: 100.0%;">Raymond: 3,422,913 crossings</div>`)[0];
+            popup_83114400ee2bd35f91e70e59b2f39c36.setContent(html_50f4125f44f03975feb7d74960547149);
+        
+
+        circle_marker_df52c7ec9f74a565cd6eeeb8f5272fb8.bindPopup(popup_83114400ee2bd35f91e70e59b2f39c36)
+        ;
+
+        
+    
+    
+            var circle_marker_49eb37f8038f415952a32c434026a9e8 = L.circleMarker(
+                [45.012, -72.589],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.049255967849575, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_b5e1221b68028422e588b29c7636dec7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07a231f350be8c20485f2b835e783b43 = $(`<div id="html_07a231f350be8c20485f2b835e783b43" style="width: 100.0%; height: 100.0%;">Richford: 9,806,068 crossings</div>`)[0];
+            popup_b5e1221b68028422e588b29c7636dec7.setContent(html_07a231f350be8c20485f2b835e783b43);
+        
+
+        circle_marker_49eb37f8038f415952a32c434026a9e8.bindPopup(popup_b5e1221b68028422e588b29c7636dec7)
+        ;
+
+        
+    
+    
+            var circle_marker_d87c0904402061ab94b737bcb250e74e = L.circleMarker(
+                [26.366, -98.803],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.964472766566901, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_8aa62fe6b9f5b95e826c867ebbee2fd5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75cfe1843e578ceff9552f9b604452e0 = $(`<div id="html_75cfe1843e578ceff9552f9b604452e0" style="width: 100.0%; height: 100.0%;">Rio Grande City: 61,156,428 crossings</div>`)[0];
+            popup_8aa62fe6b9f5b95e826c867ebbee2fd5.setContent(html_75cfe1843e578ceff9552f9b604452e0);
+        
+
+        circle_marker_d87c0904402061ab94b737bcb250e74e.bindPopup(popup_8aa62fe6b9f5b95e826c867ebbee2fd5)
+        ;
+
+        
+    
+    
+            var circle_marker_25c270a2971e3e597155d1b185ce160f = L.circleMarker(
+                [26.404, -99.019],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.231950191711682, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_4c97936b6fd4076cac047c2b0ff456b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d38d97d57de4b40b8104c702792927f = $(`<div id="html_3d38d97d57de4b40b8104c702792927f" style="width: 100.0%; height: 100.0%;">Roma: 104,416,721 crossings</div>`)[0];
+            popup_4c97936b6fd4076cac047c2b0ff456b4.setContent(html_3d38d97d57de4b40b8104c702792927f);
+        
+
+        circle_marker_25c270a2971e3e597155d1b185ce160f.bindPopup(popup_4c97936b6fd4076cac047c2b0ff456b4)
+        ;
+
+        
+    
+    
+            var circle_marker_9961e7e70dd0b4c689a80e50dff15063 = L.circleMarker(
+                [49.0, -115.056],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.1455466878039, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_8786cea9f6675c9a2b40577987e03e60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5dfd0979cec77b989ffb762f5027a901 = $(`<div id="html_5dfd0979cec77b989ffb762f5027a901" style="width: 100.0%; height: 100.0%;">Roosville: 11,888,634 crossings</div>`)[0];
+            popup_8786cea9f6675c9a2b40577987e03e60.setContent(html_5dfd0979cec77b989ffb762f5027a901);
+        
+
+        circle_marker_9961e7e70dd0b4c689a80e50dff15063.bindPopup(popup_8786cea9f6675c9a2b40577987e03e60)
+        ;
+
+        
+    
+    
+            var circle_marker_6c85bd092bdbcdc0648f79517043ce26 = L.circleMarker(
+                [49.0, -95.766],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.535905345939522, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_b6d35691016002a3a54a94bb4c25d151 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_674231f62f5061c967917bcba6cd909e = $(`<div id="html_674231f62f5061c967917bcba6cd909e" style="width: 100.0%; height: 100.0%;">Roseau: 3,512,402 crossings</div>`)[0];
+            popup_b6d35691016002a3a54a94bb4c25d151.setContent(html_674231f62f5061c967917bcba6cd909e);
+        
+
+        circle_marker_6c85bd092bdbcdc0648f79517043ce26.bindPopup(popup_b6d35691016002a3a54a94bb4c25d151)
+        ;
+
+        
+    
+    
+            var circle_marker_5dd77c3af7465e6082eeb5176b05fc7d = L.circleMarker(
+                [32.485, -114.782],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.787731394690757, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_f9fe35f5c44552346b3308da0f021559 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_059101345a416b4ea1fc0f790df6def8 = $(`<div id="html_059101345a416b4ea1fc0f790df6def8" style="width: 100.0%; height: 100.0%;">San Luis: 317,333,170 crossings</div>`)[0];
+            popup_f9fe35f5c44552346b3308da0f021559.setContent(html_059101345a416b4ea1fc0f790df6def8);
+        
+
+        circle_marker_5dd77c3af7465e6082eeb5176b05fc7d.bindPopup(popup_f9fe35f5c44552346b3308da0f021559)
+        ;
+
+        
+    
+    
+            var circle_marker_2abd69cc94e292ebcea2754185be85a3 = L.circleMarker(
+                [32.543, -117.029],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.524903452608283, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_842e0f3cbaa871a1d5f090e8860a2f41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c63805bcae41b3e2d0526834ee5175fb = $(`<div id="html_c63805bcae41b3e2d0526834ee5175fb" style="width: 100.0%; height: 100.0%;">San Ysidro: 1,386,165,176 crossings</div>`)[0];
+            popup_842e0f3cbaa871a1d5f090e8860a2f41.setContent(html_c63805bcae41b3e2d0526834ee5175fb);
+        
+
+        circle_marker_2abd69cc94e292ebcea2754185be85a3.bindPopup(popup_842e0f3cbaa871a1d5f090e8860a2f41)
+        ;
+
+        
+    
+    
+            var circle_marker_9fe8f3ce78bc34e6a598fa51107c89ca = L.circleMarker(
+                [31.784, -106.679],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.799693912459619, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_7008ddc914236ee047cb45eea7e76565 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_902de2ba68ec57d95c3a0d6e4084c677 = $(`<div id="html_902de2ba68ec57d95c3a0d6e4084c677" style="width: 100.0%; height: 100.0%;">Santa Teresa: 43,986,258 crossings</div>`)[0];
+            popup_7008ddc914236ee047cb45eea7e76565.setContent(html_902de2ba68ec57d95c3a0d6e4084c677);
+        
+
+        circle_marker_9fe8f3ce78bc34e6a598fa51107c89ca.bindPopup(popup_7008ddc914236ee047cb45eea7e76565)
+        ;
+
+        
+    
+    
+            var circle_marker_a761d190de642e59021a7a8ecd8c3b9e = L.circleMarker(
+                [49.0, -98.938],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.539519126332977, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_05e512f0c200307dfef0218c604b2e28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd147a687fea9e5d9132a33a59a1ddba = $(`<div id="html_dd147a687fea9e5d9132a33a59a1ddba" style="width: 100.0%; height: 100.0%;">Sarles: 478,800 crossings</div>`)[0];
+            popup_05e512f0c200307dfef0218c604b2e28.setContent(html_dd147a687fea9e5d9132a33a59a1ddba);
+        
+
+        circle_marker_a761d190de642e59021a7a8ecd8c3b9e.bindPopup(popup_05e512f0c200307dfef0218c604b2e28)
+        ;
+
+        
+    
+    
+            var circle_marker_ea8e1905be8a9183be3062ad4339233b = L.circleMarker(
+                [31.483, -111.544],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.404174085574071, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_e465c01863e3594e39854dad9048acab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d80719d85f829479cdda8d4c54f1d2b9 = $(`<div id="html_d80719d85f829479cdda8d4c54f1d2b9" style="width: 100.0%; height: 100.0%;">Sasabe: 2,698,882 crossings</div>`)[0];
+            popup_e465c01863e3594e39854dad9048acab.setContent(html_d80719d85f829479cdda8d4c54f1d2b9);
+        
+
+        circle_marker_ea8e1905be8a9183be3062ad4339233b.bindPopup(popup_e465c01863e3594e39854dad9048acab)
+        ;
+
+        
+    
+    
+            var circle_marker_5e02708adf3523911a1f6dd8bc6c0fcb = L.circleMarker(
+                [46.509, -84.361],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.146409947396123, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_578bd9a69849a58bdbdb9f4a684177a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3f27408ebae44543c47b00f5129dd8e = $(`<div id="html_c3f27408ebae44543c47b00f5129dd8e" style="width: 100.0%; height: 100.0%;">Sault Sainte Marie: 87,997,582 crossings</div>`)[0];
+            popup_578bd9a69849a58bdbdb9f4a684177a8.setContent(html_c3f27408ebae44543c47b00f5129dd8e);
+        
+
+        circle_marker_5e02708adf3523911a1f6dd8bc6c0fcb.bindPopup(popup_578bd9a69849a58bdbdb9f4a684177a8)
+        ;
+
+        
+    
+    
+            var circle_marker_ab6d285cb95cc78d79561cc31a49e600 = L.circleMarker(
+                [49.0, -105.408],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.561300674543411, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_b129c9c0c442d1659d7a6e9fe5ec046d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95263c88b961fda679de3575be7b5ffb = $(`<div id="html_95263c88b961fda679de3575be7b5ffb" style="width: 100.0%; height: 100.0%;">Scobey: 500,119 crossings</div>`)[0];
+            popup_b129c9c0c442d1659d7a6e9fe5ec046d.setContent(html_95263c88b961fda679de3575be7b5ffb);
+        
+
+        circle_marker_ab6d285cb95cc78d79561cc31a49e600.bindPopup(popup_b129c9c0c442d1659d7a6e9fe5ec046d)
+        ;
+
+        
+    
+    
+            var circle_marker_050aab249c3b72cca6958afb8f744386 = L.circleMarker(
+                [48.999, -101.628],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.14516534709749, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_395f65f5ab0ec534ae0063f9ded64288 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f93cb1ff82476fb013994a649d73c906 = $(`<div id="html_f93cb1ff82476fb013994a649d73c906" style="width: 100.0%; height: 100.0%;">Sherwood: 1,607,725 crossings</div>`)[0];
+            popup_395f65f5ab0ec534ae0063f9ded64288.setContent(html_f93cb1ff82476fb013994a649d73c906);
+        
+
+        circle_marker_050aab249c3b72cca6958afb8f744386.bindPopup(popup_395f65f5ab0ec534ae0063f9ded64288)
+        ;
+
+        
+    
+    
+            var circle_marker_ea919e4f8f560fe328787c22f99d4124 = L.circleMarker(
+                [59.63, -135.164],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.044035081918162, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_f1102e43ddc78924e24f174827c9fd8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e77ad9dbd48f23b0b37610e849a85d1 = $(`<div id="html_6e77ad9dbd48f23b0b37610e849a85d1" style="width: 100.0%; height: 100.0%;">Skagway: 9,704,208 crossings</div>`)[0];
+            popup_f1102e43ddc78924e24f174827c9fd8d.setContent(html_6e77ad9dbd48f23b0b37610e849a85d1);
+        
+
+        circle_marker_ea919e4f8f560fe328787c22f99d4124.bindPopup(popup_f1102e43ddc78924e24f174827c9fd8d)
+        ;
+
+        
+    
+    
+            var circle_marker_fb7688ccad66e4d4e0e85c75e95e0737 = L.circleMarker(
+                [48.999, -99.659],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.164430196613085, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_cadccae9c6a3bb8aee6875e9a7070ce8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07aff679c3ac02122b73d24d65c0aa78 = $(`<div id="html_07aff679c3ac02122b73d24d65c0aa78" style="width: 100.0%; height: 100.0%;">St John: 1,670,879 crossings</div>`)[0];
+            popup_cadccae9c6a3bb8aee6875e9a7070ce8.setContent(html_07aff679c3ac02122b73d24d65c0aa78);
+        
+
+        circle_marker_fb7688ccad66e4d4e0e85c75e95e0737.bindPopup(popup_cadccae9c6a3bb8aee6875e9a7070ce8)
+        ;
+
+        
+    
+    
+            var circle_marker_c907817105e10e1bae4293bded854e16 = L.circleMarker(
+                [49.002, -122.265],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.08022773011681, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_542ccad34d169b99df91c653238469a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36d3f7f2abd490a1daf7954383d1b94b = $(`<div id="html_36d3f7f2abd490a1daf7954383d1b94b" style="width: 100.0%; height: 100.0%;">Sumas: 77,087,790 crossings</div>`)[0];
+            popup_542ccad34d169b99df91c653238469a1.setContent(html_36d3f7f2abd490a1daf7954383d1b94b);
+        
+
+        circle_marker_c907817105e10e1bae4293bded854e16.bindPopup(popup_542ccad34d169b99df91c653238469a1)
+        ;
+
+        
+    
+    
+            var circle_marker_3e911f18095230e860ebe04787e0849b = L.circleMarker(
+                [48.998, -111.96],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.611722513865757, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_d543b7e280cd537046dfd2985033ebe4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11685826c80667b853ccd84e0f691fb7 = $(`<div id="html_11685826c80667b853ccd84e0f691fb7" style="width: 100.0%; height: 100.0%;">Sweetgrass: 30,202,795 crossings</div>`)[0];
+            popup_d543b7e280cd537046dfd2985033ebe4.setContent(html_11685826c80667b853ccd84e0f691fb7);
+        
+
+        circle_marker_3e911f18095230e860ebe04787e0849b.bindPopup(popup_d543b7e280cd537046dfd2985033ebe4)
+        ;
+
+        
+    
+    
+            var circle_marker_3c62da62616875ad62baeb3d0da30406 = L.circleMarker(
+                [32.576, -116.626],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.24301719139561, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_926c865c379de7f298fdc79a27d6067e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_789d70c8410ac7925b9f1a2f847998bf = $(`<div id="html_789d70c8410ac7925b9f1a2f847998bf" style="width: 100.0%; height: 100.0%;">Tecate: 106,753,648 crossings</div>`)[0];
+            popup_926c865c379de7f298fdc79a27d6067e.setContent(html_789d70c8410ac7925b9f1a2f847998bf);
+        
+
+        circle_marker_3c62da62616875ad62baeb3d0da30406.bindPopup(popup_926c865c379de7f298fdc79a27d6067e)
+        ;
+
+        
+    
+    
+            var circle_marker_74e32a41d6137693d1651ef119018113 = L.circleMarker(
+                [31.435, -106.143],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.843812721414396, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_70333c942c903c868539efee6dc9e9bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69421606c4156dcb9b95c18df6b01549 = $(`<div id="html_69421606c4156dcb9b95c18df6b01549" style="width: 100.0%; height: 100.0%;">Tornillo: 48,043,886 crossings</div>`)[0];
+            popup_70333c942c903c868539efee6dc9e9bc.setContent(html_69421606c4156dcb9b95c18df6b01549);
+        
+
+        circle_marker_74e32a41d6137693d1651ef119018113.bindPopup(popup_70333c942c903c868539efee6dc9e9bc)
+        ;
+
+        
+    
+    
+            var circle_marker_52b5a8279f519bb94fa0d289c82033fd = L.circleMarker(
+                [44.992, -74.308],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.27753003606024, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_703d29c30f8d7618fbeacae75d7965fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a286228512c914d026b23d0efff299b = $(`<div id="html_0a286228512c914d026b23d0efff299b" style="width: 100.0%; height: 100.0%;">Trout River: 15,480,010 crossings</div>`)[0];
+            popup_703d29c30f8d7618fbeacae75d7965fe.setContent(html_0a286228512c914d026b23d0efff299b);
+        
+
+        circle_marker_52b5a8279f519bb94fa0d289c82033fd.bindPopup(popup_703d29c30f8d7618fbeacae75d7965fe)
+        ;
+
+        
+    
+    
+            var circle_marker_f9a367c123f371ad3504845ea7acee3a = L.circleMarker(
+                [49.0, -108.388],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.705911684210907, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_7570c035462f425ea0bdf2c926b24481 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f97bdc0c09482c6a53c6b55514514e17 = $(`<div id="html_f97bdc0c09482c6a53c6b55514514e17" style="width: 100.0%; height: 100.0%;">Turner: 667,853 crossings</div>`)[0];
+            popup_7570c035462f425ea0bdf2c926b24481.setContent(html_f97bdc0c09482c6a53c6b55514514e17);
+        
+
+        circle_marker_f9a367c123f371ad3504845ea7acee3a.bindPopup(popup_7570c035462f425ea0bdf2c926b24481)
+        ;
+
+        
+    
+    
+            var circle_marker_0e4de6d8dc30ac913b03d5833667ed38 = L.circleMarker(
+                [47.16, -67.931],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.411361540279225, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_eca9a82e4398923dd887c567f1baee74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8a21108ebd3494f079207f1fd46b76f = $(`<div id="html_e8a21108ebd3494f079207f1fd46b76f" style="width: 100.0%; height: 100.0%;">Van Buren: 20,230,928 crossings</div>`)[0];
+            popup_eca9a82e4398923dd887c567f1baee74.setContent(html_e8a21108ebd3494f079207f1fd46b76f);
+        
+
+        circle_marker_0e4de6d8dc30ac913b03d5833667ed38.bindPopup(popup_eca9a82e4398923dd887c567f1baee74)
+        ;
+
+        
+    
+    
+            var circle_marker_a3da238651a58cb42713a9a30e4ee2f2 = L.circleMarker(
+                [45.569, -67.429],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6395219654210695, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_ed7b78e2f863ee3eff9aa5767d5be21a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6073e58c0b1e3625b68d811c1e155b5a = $(`<div id="html_6073e58c0b1e3625b68d811c1e155b5a" style="width: 100.0%; height: 100.0%;">Vanceboro: 4,321,201 crossings</div>`)[0];
+            popup_ed7b78e2f863ee3eff9aa5767d5be21a.setContent(html_6073e58c0b1e3625b68d811c1e155b5a);
+        
+
+        circle_marker_a3da238651a58cb42713a9a30e4ee2f2.bindPopup(popup_ed7b78e2f863ee3eff9aa5767d5be21a)
+        ;
+
+        
+    
+    
+            var circle_marker_a1f8a270dd87d4c6d6c9db315b224d04 = L.circleMarker(
+                [49.0, -97.908],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5313260205957855, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_da875fa6b8411194e61f648858f57af3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56b7250e957cebfd1c363a52c2c8e320 = $(`<div id="html_56b7250e957cebfd1c363a52c2c8e320" style="width: 100.0%; height: 100.0%;">Walhalla: 3,480,380 crossings</div>`)[0];
+            popup_da875fa6b8411194e61f648858f57af3.setContent(html_56b7250e957cebfd1c363a52c2c8e320);
+        
+
+        circle_marker_a1f8a270dd87d4c6d6c9db315b224d04.bindPopup(popup_da875fa6b8411194e61f648858f57af3)
+        ;
+
+        
+    
+    
+            var circle_marker_c5a4f82d9b8f27e66f79d015e49d51c4 = L.circleMarker(
+                [48.999, -95.377],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.101837639241834, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_a702845c51f40bfc34171cc7137efe19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e248c2874e3bdd89fc712214128acb3 = $(`<div id="html_9e248c2874e3bdd89fc712214128acb3" style="width: 100.0%; height: 100.0%;">Warroad: 10,893,483 crossings</div>`)[0];
+            popup_a702845c51f40bfc34171cc7137efe19.setContent(html_9e248c2874e3bdd89fc712214128acb3);
+        
+
+        circle_marker_c5a4f82d9b8f27e66f79d015e49d51c4.bindPopup(popup_a702845c51f40bfc34171cc7137efe19)
+        ;
+
+        
+    
+    
+            var circle_marker_c3a7ac98a2d53fbfd3caf6f1a872ebc3 = L.circleMarker(
+                [49.0, -101.017],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.97899700552931, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_424458789d950ea3aa3e921329615002 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be6b2a74a4a8fdd377c53dc9abc42937 = $(`<div id="html_be6b2a74a4a8fdd377c53dc9abc42937" style="width: 100.0%; height: 100.0%;">Westhope: 1,153,134 crossings</div>`)[0];
+            popup_424458789d950ea3aa3e921329615002.setContent(html_be6b2a74a4a8fdd377c53dc9abc42937);
+        
+
+        circle_marker_c3a7ac98a2d53fbfd3caf6f1a872ebc3.bindPopup(popup_424458789d950ea3aa3e921329615002)
+        ;
+
+        
+    
+    
+            var circle_marker_c7075970ae9d8067d4745ec6724f9240 = L.circleMarker(
+                [48.999, -105.162],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.991751964483403, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_66266c84f3777b4aaebafa63e10c02c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c6e444bcecae9670858792297fb046e = $(`<div id="html_7c6e444bcecae9670858792297fb046e" style="width: 100.0%; height: 100.0%;">Whitetail: 160,092 crossings</div>`)[0];
+            popup_66266c84f3777b4aaebafa63e10c02c8.setContent(html_7c6e444bcecae9670858792297fb046e);
+        
+
+        circle_marker_c7075970ae9d8067d4745ec6724f9240.bindPopup(popup_66266c84f3777b4aaebafa63e10c02c8)
+        ;
+
+        
+    
+    
+            var circle_marker_c8f308f274134cb6a666439b3426321f = L.circleMarker(
+                [48.997, -111.258],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.609277202183825, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_635ecee576bb14525cbd0cbbe5883167 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9595720180a06c942dc9d18fd8339c0 = $(`<div id="html_d9595720180a06c942dc9d18fd8339c0" style="width: 100.0%; height: 100.0%;">Whitlash: 74,500 crossings</div>`)[0];
+            popup_635ecee576bb14525cbd0cbbe5883167.setContent(html_d9595720180a06c942dc9d18fd8339c0);
+        
+
+        circle_marker_c8f308f274134cb6a666439b3426321f.bindPopup(popup_635ecee576bb14525cbd0cbbe5883167)
+        ;
+
+        
+    
+    
+            var circle_marker_36c71ac353001cb8cfa6f023a66e2f59 = L.circleMarker(
+                [48.999, -110.215],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.879790106634022, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_659248cca2660e7f41428dc7d74c69c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b02c90d68033dce3093213a7c32f45d7 = $(`<div id="html_b02c90d68033dce3093213a7c32f45d7" style="width: 100.0%; height: 100.0%;">Wildhorse: 945,605 crossings</div>`)[0];
+            popup_659248cca2660e7f41428dc7d74c69c1.setContent(html_b02c90d68033dce3093213a7c32f45d7);
+        
+
+        circle_marker_36c71ac353001cb8cfa6f023a66e2f59.bindPopup(popup_659248cca2660e7f41428dc7d74c69c1)
+        ;
+
+        
+    
+    
+            var circle_marker_a9c32be333f38c0210a7b1eca1a347aa = L.circleMarker(
+                [49.0, -109.731],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.057660778628173, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_a265e5a86e67f47614da9f5672616cfa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a2f4560704dfba295ef6abc405501a3 = $(`<div id="html_6a2f4560704dfba295ef6abc405501a3" style="width: 100.0%; height: 100.0%;">Willow Creek: 182,649 crossings</div>`)[0];
+            popup_a265e5a86e67f47614da9f5672616cfa.setContent(html_6a2f4560704dfba295ef6abc405501a3);
+        
+
+        circle_marker_a9c32be333f38c0210a7b1eca1a347aa.bindPopup(popup_a265e5a86e67f47614da9f5672616cfa)
+        ;
+
+        
+    
+    
+            var circle_marker_85da80d0ecfadcb49cb964173a28c4ff = L.circleMarker(
+                [31.673, -106.335],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.849303137352104, "stroke": true, "weight": 3}
+            ).addTo(map_2942e974ac6a7d7fedee2db5d1a3bdb9);
+        
+    
+        var popup_8503dc13a6ad9bc45879e35722f259d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92d91ad33810acc3a739909c907bb45f = $(`<div id="html_92d91ad33810acc3a739909c907bb45f" style="width: 100.0%; height: 100.0%;">Ysleta: 48,574,355 crossings</div>`)[0];
+            popup_8503dc13a6ad9bc45879e35722f259d6.setContent(html_92d91ad33810acc3a739909c907bb45f);
+        
+
+        circle_marker_85da80d0ecfadcb49cb964173a28c4ff.bindPopup(popup_8503dc13a6ad9bc45879e35722f259d6)
+        ;
+
+        
+    
+</script>
+</html>
